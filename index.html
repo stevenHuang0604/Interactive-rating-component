@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="rating card__side card__side--front">
+        <img src="./images/icon-star.svg" alt="star icon" class="rating__star" />
+        <h1 class="title">How did we do?</h1>
+        <p class="text">
+          Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+          offering!
+        </p>
+        <div class="rating__btns">
+          <button class="rating__number rating__number--1">1</button>
+          <button class="rating__number rating__number--2">2</button>
+          <button class="rating__number rating__number--3">3</button>
+          <button class="rating__number rating__number--4">4</button>
+          <button class="rating__number rating__number--5">5</button>
+        </div>
+
+        <button class="rating__submit">Submit</button>
+      </div>
+
+      <div class="thank card__side card__side--back">
+        <img src="./images/illustration-thank-you.svg" alt="thank you illustration" class="thnak__illustration" />
+        <div class="thank__tag">You selected 4 out of 5</div>
+
+        <h1 class="title">Thank you!</h1>
+        <p class="text">
+          We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in
+          touch!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
